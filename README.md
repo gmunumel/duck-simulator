@@ -1,3 +1,7 @@
+<div style="text-align: right">
+<img src="https://github.com/gmunumel/duck-simulator/actions/workflows/python-tests.yml/badge.svg"></img>
+</div>
+
 # duck-simulator
 
 This project is to implement Duck Simulator follow Head First Pattern Chapter 12.
