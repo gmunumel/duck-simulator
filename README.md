@@ -1,6 +1,4 @@
-<div style="text-align: right">
-<img src="https://github.com/gmunumel/duck-simulator/actions/workflows/python-tests.yml/badge.svg"></img>
-</div>
+![Test Status](https://github.com/gmunumel/duck-simulator/actions/workflows/python-tests.yml/badge.svg)
 
 # duck-simulator
 
