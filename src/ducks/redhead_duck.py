@@ -2,6 +2,6 @@ from src.ducks.quackable import Quackable
 from src.log import logger
 
 
-class RedHeadDuck(Quackable):
+class RedheadDuck(Quackable):
     def quack(self):
         logger.info("Quack")
