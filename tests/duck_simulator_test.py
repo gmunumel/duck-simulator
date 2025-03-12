@@ -3,6 +3,7 @@ import logging
 from collections import Counter
 
 from src.duck_simulator import DuckSimulator
+from src.ducks.quack_counter import QuackCounter
 
 
 def test_duck_simulator(caplog):
@@ -15,3 +16,4 @@ def test_duck_simulator(caplog):
     assert "Honk" in caplog.text
     message_counts = Counter(message for _, _, message in caplog.record_tuples)
     assert message_counts["Quack"] == 2
+    assert QuackCounter.get_quacks() == 3

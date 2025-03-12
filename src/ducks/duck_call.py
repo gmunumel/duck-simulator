@@ -1,4 +1,4 @@
-from src.interfaces.quackable import Quackable
+from src.ducks.quackable import Quackable
 from src.log import logger
 
 
