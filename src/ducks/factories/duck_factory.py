@@ -1,4 +1,4 @@
-from src.ducks.abstract_duck_factory import AbstractDuckFactory
+from src.ducks.factories.abstract_duck_factory import AbstractDuckFactory
 from src.ducks.mallard_duck import MallardDuck
 from src.ducks.redhead_duck import RedheadDuck
 from src.ducks.duck_call import DuckCall

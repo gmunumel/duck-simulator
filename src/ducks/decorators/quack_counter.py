@@ -1,4 +1,5 @@
 from src.ducks.quackable import Quackable
+from src.ducks.observer.observer import Observer
 
 
 class QuackCounter(Quackable):
@@ -14,3 +15,10 @@ class QuackCounter(Quackable):
     @classmethod
     def get_quacks(cls):
         return cls.number_of_quacks
+
+    def register_observer(self, observer: Observer):
+        self.duck.register_observer(observer)
+
+    def notify_observers(self):
+        # self.duck.notify_observers()
+        pass

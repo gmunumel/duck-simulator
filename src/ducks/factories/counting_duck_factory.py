@@ -1,5 +1,5 @@
-from src.ducks.abstract_duck_factory import AbstractDuckFactory
-from src.ducks.quack_counter import QuackCounter
+from src.ducks.factories.abstract_duck_factory import AbstractDuckFactory
+from src.ducks.decorators.quack_counter import QuackCounter
 from src.ducks.mallard_duck import MallardDuck
 from src.ducks.redhead_duck import RedheadDuck
 from src.ducks.duck_call import DuckCall
