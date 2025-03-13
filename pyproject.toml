@@ -55,3 +55,6 @@ pythonpath = [
 testpaths = [
   "tests",
 ]
+
+[tool.mypy]
+check_untyped_defs = true

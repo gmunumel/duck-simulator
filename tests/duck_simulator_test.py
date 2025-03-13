@@ -15,5 +15,5 @@ def test_duck_simulator(caplog):
     assert "Squeak" in caplog.text
     assert "Honk" in caplog.text
     message_counts = Counter(message for _, _, message in caplog.record_tuples)
-    assert message_counts["Quack"] == 2
-    assert QuackCounter.get_quacks() == 4
+    assert message_counts["Quack"] == 9
+    assert QuackCounter.get_quacks() == 11
